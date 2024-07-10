@@ -1,0 +1,39 @@
+messages:
+  prefix: "&6&lSunBlastProtect: &f"
+  commands:
+    reload: #SunBlastRestricter.reload
+      usage: "Перезагрузить конфиг: &a/restricter-reload"
+      no-perm: "&cНедостаточно прав!"
+      successfully: "&aВы успешно перезагрузили конфигурацию!"
+
+settings:
+  vanish:
+    break-block:
+      blocked: false #true - Запрет | false - Разрешить
+      message: "Вы не можете ломать блоки в &c/v;title:  &6Ограничения %nl% Пожалуйста отключите &c/v"
+    place-block:
+      blocked: false
+      message: "Вы не можете ставить блоки в &c/v;title:  &6Ограничения %nl% Пожалуйста отключите &c/v"
+    pickup-items:
+      blocked: false
+      message: "Вы не можете подбирать вещи в &c/v;title:  &6Ограничения %nl% Пожалуйста отключите &c/v"
+  god:
+    break-block:
+      blocked: true
+      message: "Вы не можете ломать блоки в &c/god;title:  &6Ограничения %nl% Пожалуйста отключите &c/god"
+    place-block:
+      blocked: true
+      message: "Вы не можете ставить блоки в &c/god;title:  &6Ограничения %nl% Пожалуйста отключите &c/god"
+    pickup-items:
+      blocked: true
+      message: "Вы не можете подбирать вещи в &c/god;title:  &6Ограничения %nl% Пожалуйста отключите &c/god"
+  fly:
+    break-block:
+      blocked: true
+      message: "Вы не можете ломать блоки в &c/fly;title:  &6Ограничения %nl% Пожалуйста отключите &c/fly"
+    place-block:
+      blocked: true
+      message: "Вы не можете ставить блоки в &c/fly;title:  &6Ограничения %nl% Пожалуйста отключите &c/fly"
+    pickup-items:
+      blocked: true
+      message: "Вы не можете подбирать вещи в &c/fly;title:  &6Ограничения %nl% Пожалуйста отключите &c/fly"

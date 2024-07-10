@@ -1,0 +1,7 @@
+name: SunBlastRestricter
+version: '${project.version}'
+main: me.rizzener.sunblastrestricter.SunBlastRestricter
+api-version: '1.16'
+author: Rizzener
+commands:
+  restricter-reload:
